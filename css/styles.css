@@ -1,0 +1,90 @@
+/* styles.css
+ * Name: Instructor Lee - WEB 110 Module 5
+ * Date: June 3, 2024
+ * File: styles.css
+ */
+
+/* CSS reset to ensure consistent styling across browsers */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling for header */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: blanchedalmond;
+    overflow: hidden; /* Clear floats */
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.5em;
+    margin-top: 0;
+}
+
+img {
+    width: auto;
+    height: auto;
+    border-radius: 50%;
+    margin: 20px;
+    float: left;
+}
+
+/* Styling for navigation */
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Responsive images */
+img {
+    max-width: auto;
+    display: block;
+    height: 150px;
+}
+
+
+/* Styling for main content */
+main {
+    padding: 20px;
+}
+
+/* Styling for footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: blanchedalmond;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Class and ID selectors */
+.highlight {
+    color: #ff6347;
+}
+
+#contact-info {
+    font-style: italic;
+}
+
+/* Font family and fallback */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
